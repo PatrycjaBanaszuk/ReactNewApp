@@ -33,6 +33,10 @@ const App = () => {
 		})
 	}
 
+	// const filteredExpense = () => {
+	
+	
+	// }
 	return (
 		<div>
 			<NewExpense onAddExpense= {addExpenseHandler}/>
