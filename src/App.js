@@ -32,11 +32,8 @@ const App = () => {
 			return [expense, ...prevExpenses]
 		})
 	}
-
-	// const filteredExpense = () => {
 	
 	
-	// }
 	return (
 		<div>
 			<NewExpense onAddExpense= {addExpenseHandler}/>
